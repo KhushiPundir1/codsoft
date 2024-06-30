@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #080101;
+    color: #fffafa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #460606;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 4.5em;
+}
+
+.header-container h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.owner-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.owner-info img {
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.services {
+    flex: 2;
+}
+
+.services h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    background-color: #430d0d;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.gallery h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-container img {
+    max-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #05245c;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
