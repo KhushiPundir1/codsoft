@@ -1,0 +1,72 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.heading{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:20px;
+}
+.wrapper{
+    height:100vh;
+    background: url(./Assets/assets-cached.jpg);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.calculator{
+    height:400px;
+    min-width:200px;
+    width:300px;
+    max-width: 350px;
+    border:1px solid black;
+    padding:25px 18px;
+    border-radius:30px;
+    backdrop-filter: blur(100px);
+    
+}
+
+.display{
+    height: 2rem;
+    width: 100%;
+    background-color: rgb(255, 166, 0);
+    border-radius:20px;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding:0 10px;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:20px;
+    place-items: center;
+   
+}
+.btn{
+    background-color: orange;
+    border:none;
+    width:50px;
+    height:35px;
+    border-radius: 10%;
+    transition: all 200ms;
+    box-shadow: 5px 5px rgb(247, 2, 2);
+    color:white;
+    font-weight: bold;
+    font-size:larger;
+}
+.btn:active{
+    transform:translate(5px,5px);
+    box-shadow: none;
+}
+.operator{
+    box-shadow: 5px 5px rgb(247, 153, 2);
+    background-color: red;
+}
