@@ -1,0 +1,90 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0543;
+}
+
+header {
+    background: #9ebdff;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+#about, #skills, #projects, #resume, #contact {
+    padding: 2rem;
+    background: #e6e4ff;
+    margin: 1rem 0;
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background: #000000;
+    color: #ffffff;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#projects .project {
+    margin: 1rem 0;
+}
+
+#projects img {
+    max-width: 100%;
+    height: auto;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #fe59bc;
+    color: #fff;
+    text-decoration: none;
+}
+
+#resume a:hover {
+    background: #000000;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #001130;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
